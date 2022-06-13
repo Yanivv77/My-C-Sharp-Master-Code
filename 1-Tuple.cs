@@ -9,7 +9,9 @@ namespace C_Sharp
     internal class _1_Tuple
     {
 
-        public(int id, string fname, string lname ) CreatePerson()
+        // Tuple - אוסף של משתנים שאפשר להעביר אותם ולהחזיר אותם מפונקציה בתור פרמטר אחד
+
+        public (int id, string fname, string lname ) CreatePerson()
         {
             int id = 12;
             string fname = "Moshe";
